@@ -21,7 +21,7 @@ class CampGearSeeder extends Seeder
             'category' => "Alat makan",
             'description' => $faker->sentence(),
             'image' => "kompor-camping.png",
-            "price" => $faker->randomFloat(2, 100, 1000),
+            "price" => $faker->randomFloat(3, 100, 1000),
             "stock" => $faker->numberBetween(10, 100),
         ]);
         CampGear::create([
@@ -29,7 +29,7 @@ class CampGearSeeder extends Seeder
             'category' => "furnitur lipat",
             'description' => $faker->sentence(),
             'image' => "kursi-lipat-camping.png",
-            "price" => $faker->randomFloat(2, 100, 1000),
+            "price" => $faker->randomFloat(3, 100, 1000),
             "stock" => $faker->numberBetween(10, 100),
         ]);
         CampGear::create([
@@ -52,7 +52,7 @@ class CampGearSeeder extends Seeder
             'name' => "Tas Carier",
             'category' => "alat tidur",
             'description' => $faker->sentence(),
-            'image' => "tas-carier-camping.png",
+            'image' => "tas-carrier-camping.png",
             "price" => $faker->randomFloat(3, 300, 1000),
             "stock" => $faker->numberBetween(10, 100),
         ]);
@@ -77,6 +77,38 @@ class CampGearSeeder extends Seeder
             'category' => "alat mendaki",
             'description' => $faker->sentence(),
             'image' => "tracking-pole-camping.png",
+            "price" => $faker->randomFloat(3, 300, 1000),
+            "stock" => $faker->numberBetween(10, 100),
+        ]);
+        CampGear::create([
+            'name' => "tabung Gas",
+            'category' => "alat masak",
+            'description' => $faker->sentence(),
+            'image' => "tabung-gas-camping.png",
+            "price" => $faker->randomFloat(3, 300, 1000),
+            "stock" => $faker->numberBetween(10, 100),
+        ]);
+        CampGear::create([
+            'name' => "Head Lamp",
+            'category' => "alat mendaki",
+            'description' => $faker->sentence(),
+            'image' => "head-lamp-camping.png",
+            "price" => $faker->randomFloat(3, 300, 1000),
+            "stock" => $faker->numberBetween(10, 100),
+        ]);
+        CampGear::create([
+            'name' => "Lampu Tenda",
+            'category' => "alat mendaki",
+            'description' => $faker->sentence(),
+            'image' => "lampu-tenda-camping.png",
+            "price" => $faker->randomFloat(3, 300, 1000),
+            "stock" => $faker->numberBetween(10, 100),
+        ]);
+        CampGear::create([
+            'name' => "Hammock",
+            'category' => "alat mendaki",
+            'description' => $faker->sentence(),
+            'image' => "hammock-camping.png",
             "price" => $faker->randomFloat(3, 300, 1000),
             "stock" => $faker->numberBetween(10, 100),
         ]);
