@@ -1,5 +1,5 @@
 @extends('layouts.app')
-@section('title', "List data camp gear")
+@section('title', "List data tanaman")
 
 @section('content')
 
@@ -12,12 +12,15 @@
                             "id" => $item->id,
                             "title" => $item->name,
                             "text" => $item->description,
-                            "category" => $item->category,
+                            "species" => $item->species,
                             "image" => asset("images/$item->image"),
                             "price" => $item->price,
+                            "sunlight_requirement" => $item->sunlight_requirement,
                         ])
                     </div>
                 @endforeach
+
+                {{ $list->links() }}
 
             </div>
         </div>

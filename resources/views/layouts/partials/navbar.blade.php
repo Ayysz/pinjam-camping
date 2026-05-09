@@ -5,12 +5,13 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-8 col-md-7 py-4">
-                    <h4>About Pinjam camping</h4>
-                    <p class="text-body-secondary">Mau camping tapi belum punya perlengkapan?
-                    Tenang, Pinjam Camping menyediakan semua yang kamu butuhkan:
-                    🎒 Backpack, 🏕️ Tenda, 🔥 Kompor, 🪑 Kursi, 💤 Sleeping Bag, dan banyak lagi!
-                    Pesan sekarang dan nikmati alam tanpa batas.
-                    🌲 Sewa mudah, nikmati serunya berkemah.</p>
+                    <h4>Semua Tanaman Hias, Satu Tempat!</h4>
+                    <p class="text-body-secondary">
+                    Ingin rumah atau kantor lebih hidup? Pinjam Plant menyediakan koleksi tanaman hias terbaik:
+                    🌿 Monstera, 🌱 Philodendron, 🌸 Anggrek, 🌵 Kaktus, dan banyak lagi!
+                    Pesan sekarang, nikmati suasana hijau yang menenangkan.
+                    🪴 Perawatan mudah, kualitas terjamin.
+                    </p>
                 </div>
                 <div class="col-sm-4 offset-md-1 py-4">
                     <h4>Contact</h4>
@@ -25,8 +26,8 @@
     </div>
     <div class="navbar navbar-dark bg-dark shadow-sm">
         <div class="container"> <a href="#" class="navbar-brand d-flex align-items-center">
-             <img src="{{ asset('favicon.ico') }}" width="20" height="20" class="me-2" alt="Pinjam Camping">
-                </svg> <strong>Pinjam Camping</strong> </a> <button class="navbar-toggler" type="button"
+             <img src="{{ asset('favicon.ico') }}" width="20" height="20" class="me-2" alt="Suplants">
+                </svg> <strong>Suplants</strong> </a> <button class="navbar-toggler" type="button"
                 data-bs-toggle="collapse" data-bs-target="#navbarHeader" aria-controls="navbarHeader"
                 aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span>
             </button> </div>

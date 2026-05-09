@@ -1,13 +1,13 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\CampGearController;
+use App\Http\Controllers\PlantController;
 
 Route::group([
-    'prefix' => '/camp-gear',
-    'as' => 'camp_gear.',
+    'prefix' => '/plant',
+    'as' => 'plant.',
 ], function () {
-    Route::get('/', [CampGearController::class, 'index'])->name('index');
-    Route::get('/{id}', [CampGearController::class, 'show'])->name('show');
+    Route::get('/', [PlantController::class, 'index'])->name('index');
+    Route::get('/{id}', [PlantController::class, 'show'])->name('show');
 });
-Route::redirect('/', '/camp-gear', 301);
+Route::redirect('/', '/plant', 301);
